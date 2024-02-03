@@ -11,7 +11,7 @@ The Teacher Management System is a web application developed to efficiently mana
 - Run the frontend application : npm start
 - Visit `http://localhost:3000` in your browser to access the Teacher Management System.
 
-## Features
+## End-Points
 | Endpoint                    | Method | Description                                  | Request Parameters / Body                                                                                 | Response                                                   |
 | --------------------------- | ------ | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | `/`                         | GET    | Retrieves a list of all teachers.            | N/A                                                                                                       | An array containing all teacher objects.                   |
@@ -24,10 +24,20 @@ The Teacher Management System is a web application developed to efficiently mana
 | `/teachers/average-classes` | GET    | Calculates the average number of classes.    | N/A                                                                                                       | JSON object containing the average number of classes.      |
 
 
+## Features
+- **Create:** We can add new teachers with relevant details.
+- **Read:** we can view a list of all teachers with their information.
+- **Update:** We can edit existing records.
+- **Delete:** We can remove teachers from the system.
+- **Filter:** Easily filter teachers based on parameters(age and classes).
+- **Search:** Search teacher based on his/her name.
+- **Average Classes:** We can get insights into the average number of classes taught.
+
 ## Technology
 - React.js
 - Node.js
 - Express
+- HTML
 - CSS
 
 [Project Link](https://teacher-management-system-k2ri.onrender.com/)
