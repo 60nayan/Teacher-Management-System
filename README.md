@@ -12,13 +12,13 @@ The Teacher Management System is a web application developed to efficiently mana
 - Visit `http://localhost:3000` in your browser to access the Teacher Management System.
 
 ## Features
-**Create:** We can add new teachers with relevant details.
-**Read:** we can view a list of all teachers with their information.
-**Update:** We can edit existing records.
-**Delete:** We can remove teachers from the system.
-**Filter:** Easily filter teachers based on parameters(age and classes).
-**Search:** Search teacher based by his/her name.
-**Average Classes:** We can get insights into the average number of classes taught.
+- **Create:** We can add new teachers with relevant details.
+- **Read:** we can view a list of all teachers with their information.
+- **Update:** We can edit existing records.
+- **Delete:** We can remove teachers from the system.
+- **Filter:** Easily filter teachers based on parameters(age and classes).
+- **Search:** Search teacher based by his/her name.
+- **Average Classes:** We can get insights into the average number of classes taught.
 
 ## Technology
 - React.js
