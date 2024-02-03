@@ -27,7 +27,7 @@ async function loadTeachersFromFile() {
     const data = fs.readFileSync("teachers.json", "utf-8");
     teachers = JSON.parse(data);
   } catch (error) {
-    console.error("Error reading movies file:", error.message);
+    console.error("Error reading teacher file:", error.message);
     teachers = [];
   }
 }
