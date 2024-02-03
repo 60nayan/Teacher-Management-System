@@ -37,7 +37,7 @@ loadTeachersFromFile();
 // Landing/Home Page
 
 // Show all teachers
-app.get("/", (req, res) => {
+app.get("/getData", (req, res) => {
   res.json(teachers);
 });
 

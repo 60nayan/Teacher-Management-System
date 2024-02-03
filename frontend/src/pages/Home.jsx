@@ -48,7 +48,7 @@ function Home() {
   useEffect(() => {
     // Make a GET request to the backend's / route
     axios
-      .get("") 
+      .get("/getData") 
       .then((response) => {
         console.log(response.data);
         setTeachers(response.data);
