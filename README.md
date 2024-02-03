@@ -12,13 +12,17 @@ The Teacher Management System is a web application developed to efficiently mana
 - Visit `http://localhost:3000` in your browser to access the Teacher Management System.
 
 ## Features
-- **Create:** We can add new teachers with relevant details.
-- **Read:** we can view a list of all teachers with their information.
-- **Update:** We can edit existing records.
-- **Delete:** We can remove teachers from the system.
-- **Filter:** Easily filter teachers based on parameters(age and classes).
-- **Search:** Search teacher based on his/her name.
-- **Average Classes:** We can get insights into the average number of classes taught.
+| Endpoint                    | Method | Description                                  | Request Parameters / Body                                                                                 | Response                                                   |
+| --------------------------- | ------ | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `/`                         | GET    | Retrieves a list of all teachers.            | N/A                                                                                                       | An array containing all teacher objects.                   |
+| `/addteachers`              | POST   | Adds a new teacher to the system.            | JSON object containing the details of the new teacher.                                                    | The added teacher object.                                  |
+| `/editteacher/:id`          | PUT    | Updates an existing teacher's details.       | `id`: The ID of the teacher to be edited. <br> JSON object containing the updated details of the teacher. | The updated teacher object.                                |
+| `/deleteteacher/:id`        | DELETE | Deletes a teacher from the system.           | `id`: The ID of the teacher to be deleted.                                                                | The deleted teacher object.                                |
+| `/teachers/filterByAge`     | GET    | Filters teachers based on their age.         | `age`: Age range to filter teachers (`20-30`, `30-40`, `40+`).                                            | An array of teacher objects filtered by age.               |
+| `/teachers/filterByClasses` | GET    | Filters teachers based on number of classes. | `classes`: Number of classes range (`1-3`, `4-6`, `6+`).                                                  | An array of teacher objects filtered by number of classes. |
+| `/teachers/search/:name`    | GET    | Searches for teachers by their name.         | `name`: The name of the teacher to search for.                                                            | An array of teacher objects matching the search query.     |
+| `/teachers/average-classes` | GET    | Calculates the average number of classes.    | N/A                                                                                                       | JSON object containing the average number of classes.      |
+
 
 ## Technology
 - React.js
