@@ -17,7 +17,7 @@ The Teacher Management System is a web application developed to efficiently mana
 - **Update:** We can edit existing records.
 - **Delete:** We can remove teachers from the system.
 - **Filter:** Easily filter teachers based on parameters(age and classes).
-- **Search:** Search teacher based by his/her name.
+- **Search:** Search teacher based on his/her name.
 - **Average Classes:** We can get insights into the average number of classes taught.
 
 ## Technology
