@@ -1,0 +1,72 @@
+[
+  {
+    "fullName": "Amit Sharma",
+    "age": 35,
+    "dateOfBirth": "1987-08-15",
+    "numClasses": "5",
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed"
+  },
+  {
+    "fullName": "Sneha Patel",
+    "age": 28,
+    "dateOfBirth": "1990-05-22",
+    "numClasses": "9",
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bea"
+  },
+  {
+    "fullName": "Rajesh Verma",
+    "age": 40,
+    "dateOfBirth": "1982-03-08",
+    "numClasses": 3,
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbb14bbd"
+  },
+  {
+    "fullName": "Geeta Singh",
+    "age": 32,
+    "dateOfBirth": "1989-12-01",
+    "numClasses": 4,
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbb24bcd"
+  },
+  {
+    "fullName": "Anil Kumar",
+    "age": 32,
+    "dateOfBirth": "1989-12-01",
+    "numClasses": 4,
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfzbd4bcd"
+  },
+  {
+    "fullName": "Deepa Singh",
+    "age": 32,
+    "dateOfBirth": "1989-12-01",
+    "numClasses": 4,
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bce"
+  },
+  {
+    "fullName": "Arjun Sharma",
+    "age": "28",
+    "dateOfBirth": "1996-06-02",
+    "numClasses": 5,
+    "id": "b3d40e5b-6efd-4b2c-a574-de9c9e529d38"
+  },
+  {
+    "fullName": "Ritu Gupta",
+    "age": "30",
+    "dateOfBirth": "1997-06-12",
+    "numClasses": "7",
+    "id": "7c5655db-7fab-41d7-989f-92cbc4df1519"
+  },
+  {
+    "fullName": "Aryan Khanna",
+    "age": "35",
+    "dateOfBirth": "1989-05-21",
+    "numClasses": 2,
+    "id": "f4738ff4-77da-4ac1-b408-73cc734570c4"
+  },
+  {
+    "fullName": "Neha Sharma",
+    "age": "30",
+    "dateOfBirth": "1991-11-15",
+    "numClasses": "5",
+    "id": "014bd970-1a8b-4372-bdb6-721f9e297bf6"
+  }
+]
