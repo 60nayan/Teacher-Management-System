@@ -1,5 +1,5 @@
 # Teacher-Management-System
-The Teacher Management System is a web application developed to efficiently manage teacher-related information(like Name,Date of Birth,Number of Classes and Age). This system provides CRUD (Create, Read, Update and Delete) operations, filtering based on Age and Classes, searching capabilities, and an average class calculation feature. The project utilizes React.js for Frontend, Express and Node.js for Backend and used file system storage(JSON) for data storage. This website is hostel on Render.
+The Teacher Management System is a web application developed to efficiently manage teacher-related information(like Name,Date of Birth,Number of Classes and Age). This system provides CRUD (Create, Read, Update and Delete) operations, filtering based on Age and Classes, searching capabilities, and an average class calculation feature. The project utilizes React.js for Frontend, Express and Node.js for Backend and used file system storage(JSON) for data storage. This website is hosted on Render.
 
 ## Steps to Run Project
 - First Clone the git Repository.
