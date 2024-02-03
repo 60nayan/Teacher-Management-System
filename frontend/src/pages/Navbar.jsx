@@ -21,7 +21,7 @@ const Navbar = ({
 
   return (
     <div className="navbar">
-    <div className="logo"><span className="logoFont">T</span>eacher <span className="logoFont">M</span>anagement <span className="logoFont">S</span>ystem</div>
+    <div className="logo"><span className="logoFont">T</span>eacher <span className="logoFont">M</span>anagement <span className="logoFont">A</span>pplication</div>
       <div className="left">
         <a onClick={() => window.location.reload()}>Home</a>
         <a onClick={onOpenTeacherModal}>Add Teacher</a>
