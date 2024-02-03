@@ -4,10 +4,18 @@ const fs = require("fs");
 const app = express();
 const PORT = 4000;
 const cors = require("cors");
+const path = require('path');
 const { v4: uuidv4 } = require("uuid");
 
 app.use(bodyParser.json());
 app.use(cors());
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+// Handle other routes or API endpoints here
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 function writeTeachers() {
   fs.writeFileSync("teachers.json", JSON.stringify(teachers, null, 2), "utf-8");
